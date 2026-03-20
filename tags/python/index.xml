@@ -2,52 +2,52 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>python on AG</title>
-    <link>https://andGarc.github.io/ag/tags/python/</link>
+    <link>https://andgarc.github.io/digital-garden/tags/python/</link>
     <description>Recent content in python on AG</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Thu, 07 Dec 2023 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://andGarc.github.io/ag/tags/python/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://andgarc.github.io/digital-garden/tags/python/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Python Environment form a YAML file</title>
-      <link>https://andGarc.github.io/ag/posts/create-py-env-from-yaml/</link>
+      <link>https://andgarc.github.io/digital-garden/posts/create-py-env-from-yaml/</link>
       <pubDate>Thu, 07 Dec 2023 00:00:00 +0000</pubDate>
-      <guid>https://andGarc.github.io/ag/posts/create-py-env-from-yaml/</guid>
+      <guid>https://andgarc.github.io/digital-garden/posts/create-py-env-from-yaml/</guid>
       <description>Create an environment form a YAML file</description>
     </item>
     <item>
       <title>Supply Chain Demand Forecasting</title>
-      <link>https://andGarc.github.io/ag/posts/supply-chain-demand-forecasting/</link>
+      <link>https://andgarc.github.io/digital-garden/posts/supply-chain-demand-forecasting/</link>
       <pubDate>Sun, 22 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>https://andGarc.github.io/ag/posts/supply-chain-demand-forecasting/</guid>
+      <guid>https://andgarc.github.io/digital-garden/posts/supply-chain-demand-forecasting/</guid>
       <description>How to implement demand forecasting in the supply chain using python</description>
     </item>
     <item>
       <title>Optimize Python Code Using Pre-Allocation</title>
-      <link>https://andGarc.github.io/ag/posts/pre-allocation-python/</link>
+      <link>https://andgarc.github.io/digital-garden/posts/pre-allocation-python/</link>
       <pubDate>Sat, 26 Aug 2023 18:41:22 -0500</pubDate>
-      <guid>https://andGarc.github.io/ag/posts/pre-allocation-python/</guid>
+      <guid>https://andgarc.github.io/digital-garden/posts/pre-allocation-python/</guid>
       <description>Pre-Allocation example in python</description>
     </item>
     <item>
       <title>Switch Case Replacement in Python</title>
-      <link>https://andGarc.github.io/ag/posts/switch-in-python/</link>
+      <link>https://andgarc.github.io/digital-garden/posts/switch-in-python/</link>
       <pubDate>Tue, 13 Jun 2023 00:00:00 +0000</pubDate>
-      <guid>https://andGarc.github.io/ag/posts/switch-in-python/</guid>
+      <guid>https://andgarc.github.io/digital-garden/posts/switch-in-python/</guid>
       <description>How-to implement a switch case in python</description>
     </item>
     <item>
       <title>Did SQLAlchemy Break?</title>
-      <link>https://andGarc.github.io/ag/posts/sqlalchemy-broke/</link>
+      <link>https://andgarc.github.io/digital-garden/posts/sqlalchemy-broke/</link>
       <pubDate>Thu, 04 May 2023 00:00:00 +0000</pubDate>
-      <guid>https://andGarc.github.io/ag/posts/sqlalchemy-broke/</guid>
+      <guid>https://andgarc.github.io/digital-garden/posts/sqlalchemy-broke/</guid>
       <description>Why did the SQLAlchemy ORM go to therapy? Because it had relationship issues!</description>
     </item>
     <item>
       <title>Faster Django Queries</title>
-      <link>https://andGarc.github.io/ag/posts/faster-django-queries/</link>
+      <link>https://andgarc.github.io/digital-garden/posts/faster-django-queries/</link>
       <pubDate>Wed, 07 Dec 2022 00:00:00 +0000</pubDate>
-      <guid>https://andGarc.github.io/ag/posts/faster-django-queries/</guid>
+      <guid>https://andgarc.github.io/digital-garden/posts/faster-django-queries/</guid>
       <description>Improve your django queries</description>
     </item>
   </channel>

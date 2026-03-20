@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>unix on AG</title>
-    <link>https://andGarc.github.io/ag/tags/unix/</link>
+    <link>https://andgarc.github.io/digital-garden/tags/unix/</link>
     <description>Recent content in unix on AG</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Tue, 23 Feb 2021 19:11:34 -0500</lastBuildDate>
-    <atom:link href="https://andGarc.github.io/ag/tags/unix/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://andgarc.github.io/digital-garden/tags/unix/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>grep</title>
-      <link>https://andGarc.github.io/ag/posts/grep/</link>
+      <link>https://andgarc.github.io/digital-garden/posts/grep/</link>
       <pubDate>Tue, 23 Feb 2021 19:11:34 -0500</pubDate>
-      <guid>https://andGarc.github.io/ag/posts/grep/</guid>
+      <guid>https://andgarc.github.io/digital-garden/posts/grep/</guid>
       <description>A popular unix command line utility for searching plain text in files. </description>
     </item>
   </channel>

@@ -2,92 +2,92 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Posts on AG</title>
-    <link>https://andGarc.github.io/ag/posts/</link>
+    <link>https://andgarc.github.io/digital-garden/posts/</link>
     <description>Recent content in Posts on AG</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Wed, 02 Jul 2025 08:50:55 -0400</lastBuildDate>
-    <atom:link href="https://andGarc.github.io/ag/posts/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://andgarc.github.io/digital-garden/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>What is a Digital Garden?</title>
-      <link>https://andGarc.github.io/ag/posts/what-is-a-digital-garden/</link>
+      <link>https://andgarc.github.io/digital-garden/posts/what-is-a-digital-garden/</link>
       <pubDate>Fri, 18 Sep 2020 11:32:44 -0500</pubDate>
-      <guid>https://andGarc.github.io/ag/posts/what-is-a-digital-garden/</guid>
+      <guid>https://andgarc.github.io/digital-garden/posts/what-is-a-digital-garden/</guid>
       <description>What is a Digital Garden? A digital garden is like a cross between a personal blog and a knowledge base.
 This is where I keep knowledge accumulated over my career in a series of notes.
 Mine is powered by Hugo &amp;amp; PaperMod and hosted on GitHub Pages.</description>
     </item>
     <item>
       <title>My First Post</title>
-      <link>https://andGarc.github.io/ag/posts/my-first-post/</link>
+      <link>https://andgarc.github.io/digital-garden/posts/my-first-post/</link>
       <pubDate>Wed, 02 Jul 2025 08:50:55 -0400</pubDate>
-      <guid>https://andGarc.github.io/ag/posts/my-first-post/</guid>
+      <guid>https://andgarc.github.io/digital-garden/posts/my-first-post/</guid>
       <description>Introduction This is bold text, and this is emphasized text.
 Visit the Hugo website!</description>
     </item>
     <item>
       <title>Documenting a Project</title>
-      <link>https://andGarc.github.io/ag/posts/documenting-a-project/</link>
+      <link>https://andgarc.github.io/digital-garden/posts/documenting-a-project/</link>
       <pubDate>Fri, 09 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>https://andGarc.github.io/ag/posts/documenting-a-project/</guid>
+      <guid>https://andgarc.github.io/digital-garden/posts/documenting-a-project/</guid>
       <description>Tips on documenting projects</description>
     </item>
     <item>
       <title>Use a Parameter to Swap Sheets in Tableau</title>
-      <link>https://andGarc.github.io/ag/posts/use-parameter-to-swap-sheets/</link>
+      <link>https://andgarc.github.io/digital-garden/posts/use-parameter-to-swap-sheets/</link>
       <pubDate>Wed, 31 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>https://andGarc.github.io/ag/posts/use-parameter-to-swap-sheets/</guid>
+      <guid>https://andgarc.github.io/digital-garden/posts/use-parameter-to-swap-sheets/</guid>
       <description>How to use a parameter in Tableau to swap between sheets</description>
     </item>
     <item>
       <title>Questions Every Data Scientist Should Hardcore Into Their Brain</title>
-      <link>https://andGarc.github.io/ag/posts/questions-every-data-scientist-should-remember/</link>
+      <link>https://andgarc.github.io/digital-garden/posts/questions-every-data-scientist-should-remember/</link>
       <pubDate>Sun, 31 Dec 2023 00:00:00 +0000</pubDate>
-      <guid>https://andGarc.github.io/ag/posts/questions-every-data-scientist-should-remember/</guid>
+      <guid>https://andgarc.github.io/digital-garden/posts/questions-every-data-scientist-should-remember/</guid>
       <description>Hammer Time &amp;ldquo;Hammer Problem&amp;rdquo; i.e. when you have a really nice hammer, everything looks like a nail. This often leads to projects which are intellectually stimulating yet practically useless.
 Problems &amp;gt; Tech Key lesson: focus on problems rather than technologies. Gain a sufficiently deep understanding of the business problem before writing a single line of code.
 5 Problem Discovery Questions What problem are you trying to solve? Why&amp;hellip;? One of the most difficult questions to ask.</description>
     </item>
     <item>
       <title>Python Environment form a YAML file</title>
-      <link>https://andGarc.github.io/ag/posts/create-py-env-from-yaml/</link>
+      <link>https://andgarc.github.io/digital-garden/posts/create-py-env-from-yaml/</link>
       <pubDate>Thu, 07 Dec 2023 00:00:00 +0000</pubDate>
-      <guid>https://andGarc.github.io/ag/posts/create-py-env-from-yaml/</guid>
+      <guid>https://andgarc.github.io/digital-garden/posts/create-py-env-from-yaml/</guid>
       <description>Create an environment form a YAML file</description>
     </item>
     <item>
       <title>Problem Solving for Anyone</title>
-      <link>https://andGarc.github.io/ag/posts/problem-solving-for-anyone/</link>
+      <link>https://andgarc.github.io/digital-garden/posts/problem-solving-for-anyone/</link>
       <pubDate>Wed, 01 Nov 2023 00:00:00 +0000</pubDate>
-      <guid>https://andGarc.github.io/ag/posts/problem-solving-for-anyone/</guid>
+      <guid>https://andgarc.github.io/digital-garden/posts/problem-solving-for-anyone/</guid>
       <description>How to use hypothesis like top strategy consultants</description>
     </item>
     <item>
       <title>Supply Chain Demand Forecasting</title>
-      <link>https://andGarc.github.io/ag/posts/supply-chain-demand-forecasting/</link>
+      <link>https://andgarc.github.io/digital-garden/posts/supply-chain-demand-forecasting/</link>
       <pubDate>Sun, 22 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>https://andGarc.github.io/ag/posts/supply-chain-demand-forecasting/</guid>
+      <guid>https://andgarc.github.io/digital-garden/posts/supply-chain-demand-forecasting/</guid>
       <description>How to implement demand forecasting in the supply chain using python</description>
     </item>
     <item>
       <title>Report an Issue Template</title>
-      <link>https://andGarc.github.io/ag/posts/issue-reporting-template/</link>
+      <link>https://andgarc.github.io/digital-garden/posts/issue-reporting-template/</link>
       <pubDate>Tue, 26 Sep 2023 00:00:00 +0000</pubDate>
-      <guid>https://andGarc.github.io/ag/posts/issue-reporting-template/</guid>
+      <guid>https://andgarc.github.io/digital-garden/posts/issue-reporting-template/</guid>
       <description>Template for reporting issues</description>
     </item>
     <item>
       <title>Optimize Python Code Using Pre-Allocation</title>
-      <link>https://andGarc.github.io/ag/posts/pre-allocation-python/</link>
+      <link>https://andgarc.github.io/digital-garden/posts/pre-allocation-python/</link>
       <pubDate>Sat, 26 Aug 2023 18:41:22 -0500</pubDate>
-      <guid>https://andGarc.github.io/ag/posts/pre-allocation-python/</guid>
+      <guid>https://andgarc.github.io/digital-garden/posts/pre-allocation-python/</guid>
       <description>Pre-Allocation example in python</description>
     </item>
     <item>
       <title>Useful Tableau Calculations</title>
-      <link>https://andGarc.github.io/ag/posts/useful-tableau-calculations/</link>
+      <link>https://andgarc.github.io/digital-garden/posts/useful-tableau-calculations/</link>
       <pubDate>Mon, 14 Aug 2023 00:00:00 +0000</pubDate>
-      <guid>https://andGarc.github.io/ag/posts/useful-tableau-calculations/</guid>
+      <guid>https://andgarc.github.io/digital-garden/posts/useful-tableau-calculations/</guid>
       <description>Dates Max Date
 MONTH([Date]) = MONTH({ FIXED : MAX([Date])})
 Max Date where values is not null or 0
@@ -100,30 +100,30 @@ Get current value using max date</description>
     </item>
     <item>
       <title>JS Overview</title>
-      <link>https://andGarc.github.io/ag/posts/js-overview/</link>
+      <link>https://andgarc.github.io/digital-garden/posts/js-overview/</link>
       <pubDate>Mon, 17 Jul 2023 00:00:00 +0000</pubDate>
-      <guid>https://andGarc.github.io/ag/posts/js-overview/</guid>
+      <guid>https://andgarc.github.io/digital-garden/posts/js-overview/</guid>
       <description>Quick Javascript Overview - Reference</description>
     </item>
     <item>
       <title>Switch Case Replacement in Python</title>
-      <link>https://andGarc.github.io/ag/posts/switch-in-python/</link>
+      <link>https://andgarc.github.io/digital-garden/posts/switch-in-python/</link>
       <pubDate>Tue, 13 Jun 2023 00:00:00 +0000</pubDate>
-      <guid>https://andGarc.github.io/ag/posts/switch-in-python/</guid>
+      <guid>https://andgarc.github.io/digital-garden/posts/switch-in-python/</guid>
       <description>How-to implement a switch case in python</description>
     </item>
     <item>
       <title>Did SQLAlchemy Break?</title>
-      <link>https://andGarc.github.io/ag/posts/sqlalchemy-broke/</link>
+      <link>https://andgarc.github.io/digital-garden/posts/sqlalchemy-broke/</link>
       <pubDate>Thu, 04 May 2023 00:00:00 +0000</pubDate>
-      <guid>https://andGarc.github.io/ag/posts/sqlalchemy-broke/</guid>
+      <guid>https://andgarc.github.io/digital-garden/posts/sqlalchemy-broke/</guid>
       <description>Why did the SQLAlchemy ORM go to therapy? Because it had relationship issues!</description>
     </item>
     <item>
       <title>Gestalt Principles for Data Visualization</title>
-      <link>https://andGarc.github.io/ag/posts/gestalt-principles/</link>
+      <link>https://andgarc.github.io/digital-garden/posts/gestalt-principles/</link>
       <pubDate>Thu, 16 Mar 2023 00:00:00 +0000</pubDate>
-      <guid>https://andGarc.github.io/ag/posts/gestalt-principles/</guid>
+      <guid>https://andgarc.github.io/digital-garden/posts/gestalt-principles/</guid>
       <description>TL;RD The Gestalt principles can be used to understand how people interact with and create order out of visual stimuli.
 There are 6 principles:
 Proximity: Things that are close together are perceived as belonging together.
@@ -133,44 +133,44 @@ Closure: Our brains tend to fill in missing information to create a complete ima
     </item>
     <item>
       <title>Machine Learning Techniques</title>
-      <link>https://andGarc.github.io/ag/posts/ml-techniques/</link>
+      <link>https://andgarc.github.io/digital-garden/posts/ml-techniques/</link>
       <pubDate>Thu, 09 Mar 2023 00:00:00 +0000</pubDate>
-      <guid>https://andGarc.github.io/ag/posts/ml-techniques/</guid>
+      <guid>https://andgarc.github.io/digital-garden/posts/ml-techniques/</guid>
       <description>Overview of some core machine learning techniques</description>
     </item>
     <item>
       <title>Faster Django Queries</title>
-      <link>https://andGarc.github.io/ag/posts/faster-django-queries/</link>
+      <link>https://andgarc.github.io/digital-garden/posts/faster-django-queries/</link>
       <pubDate>Wed, 07 Dec 2022 00:00:00 +0000</pubDate>
-      <guid>https://andGarc.github.io/ag/posts/faster-django-queries/</guid>
+      <guid>https://andgarc.github.io/digital-garden/posts/faster-django-queries/</guid>
       <description>Improve your django queries</description>
     </item>
     <item>
       <title>grep</title>
-      <link>https://andGarc.github.io/ag/posts/grep/</link>
+      <link>https://andgarc.github.io/digital-garden/posts/grep/</link>
       <pubDate>Tue, 23 Feb 2021 19:11:34 -0500</pubDate>
-      <guid>https://andGarc.github.io/ag/posts/grep/</guid>
+      <guid>https://andgarc.github.io/digital-garden/posts/grep/</guid>
       <description>A popular unix command line utility for searching plain text in files. </description>
     </item>
     <item>
       <title>Naming Conventions Git Branches</title>
-      <link>https://andGarc.github.io/ag/posts/naming-conventions-git-branches/</link>
+      <link>https://andgarc.github.io/digital-garden/posts/naming-conventions-git-branches/</link>
       <pubDate>Thu, 01 Oct 2020 18:16:16 -0500</pubDate>
-      <guid>https://andGarc.github.io/ag/posts/naming-conventions-git-branches/</guid>
+      <guid>https://andgarc.github.io/digital-garden/posts/naming-conventions-git-branches/</guid>
       <description>CheatSheet</description>
     </item>
     <item>
       <title>Github Changes - Clone</title>
-      <link>https://andGarc.github.io/ag/posts/github-changes-clone/</link>
+      <link>https://andgarc.github.io/digital-garden/posts/github-changes-clone/</link>
       <pubDate>Sat, 26 Sep 2020 00:00:00 +0000</pubDate>
-      <guid>https://andGarc.github.io/ag/posts/github-changes-clone/</guid>
+      <guid>https://andgarc.github.io/digital-garden/posts/github-changes-clone/</guid>
       <description>Step-by-step guide on how to clone a repository, make changes, and submit a pull request using Git and GitHub</description>
     </item>
     <item>
       <title>Github Changes - Fork</title>
-      <link>https://andGarc.github.io/ag/posts/github-changes-fork/</link>
+      <link>https://andgarc.github.io/digital-garden/posts/github-changes-fork/</link>
       <pubDate>Sat, 26 Sep 2020 00:00:00 +0000</pubDate>
-      <guid>https://andGarc.github.io/ag/posts/github-changes-fork/</guid>
+      <guid>https://andgarc.github.io/digital-garden/posts/github-changes-fork/</guid>
       <description>Step-by-step guide on how to fork a repository, make changes, and submit a pull request using Git and GitHub</description>
     </item>
   </channel>
