@@ -19,13 +19,12 @@ menu:
 
 params:
   homeInfoParams:
-    Title: Hi there
+    Title: My Digital Garden
     Content: |
-      - My name is [Andres Garcia](https://andres-ruby.vercel.app) and this is my [digital garden](https://andgarc.github.io/ag/posts/what-is-a-digital-garden/).
-      - I’m interested in programming, ML, and data viz.
+      - What is a [digital garden](https://andgarc.github.io/digital-garden/posts/what-is-a-digital-garden/)?
   socialIcons: # optional
-    - name: portfolio-page
-      title: View my online portfolio
+    - name: cv
+      title: About Me
       url: "https://andres-ruby.vercel.app"
 
   ShowReadingTime: true
