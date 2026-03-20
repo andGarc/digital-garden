@@ -141,23 +141,25 @@
 <main class="main"> 
 <article class="first-entry home-info">
     <header class="entry-header">
-        <h1>Hi there</h1>
+        <h1>My Digital Garden</h1>
     </header>
     <div class="entry-content">
         <ul>
-<li>My name is <a href="https://andres-ruby.vercel.app">Andres Garcia</a> and this is my <a href="https://andgarc.github.io/ag/posts/what-is-a-digital-garden/">digital garden</a>.</li>
-<li>I’m interested in programming, ML, and data viz.</li>
+<li>What is a <a href="https://andgarc.github.io/digital-garden/posts/what-is-a-digital-garden/">digital garden</a>?</li>
 </ul>
 
     </div>
     <footer class="entry-footer">
         <div class="social-icons" >
     <a href="https://andres-ruby.vercel.app" target="_blank" rel="noopener noreferrer me"
-        title="View My Online Portfolio">
+        title="About Me">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
     stroke-linecap="round" stroke-linejoin="round">
-    <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path>
-    <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path>
+    <path
+        d="M4 4v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8.342a2 2 0 0 0-.602-1.43l-4.44-4.342A2 2 0 0 0 13.56 2H6a2 2 0 0 0-2 2z" />
+    <path d="M9 13h6" />
+    <path d="M9 17h3" />
+    <path d="M14 2v4a2 2 0 0 0 2 2h4" />
 </svg>
     </a>
 </div>
@@ -177,19 +179,6 @@ Mine is powered by Hugo &amp; PaperMod and hosted on GitHub Pages.</p>
   </div>
   <footer class="entry-footer"><span title='2020-09-18 11:32:44 -0500 -0500'>September 18, 2020</span>&nbsp;·&nbsp;1 min</footer>
   <a class="entry-link" aria-label="post link to What is a Digital Garden?" href="https://andgarc.github.io/digital-garden/posts/what-is-a-digital-garden/"></a>
-</article>
-
-<article class="post-entry"> 
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">My First Post
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>Introduction This is bold text, and this is emphasized text.
-Visit the Hugo website!</p>
-  </div>
-  <footer class="entry-footer"><span title='2025-07-02 08:50:55 -0400 -0400'>July 2, 2025</span>&nbsp;·&nbsp;1 min</footer>
-  <a class="entry-link" aria-label="post link to My First Post" href="https://andgarc.github.io/digital-garden/posts/my-first-post/"></a>
 </article>
 
 <article class="post-entry"> 
@@ -301,9 +290,29 @@ What is Pre-Allocation Pre-allocation in Python typically refers to allocating m
   <footer class="entry-footer"><span title='2023-08-26 18:41:22 -0500 -0500'>August 26, 2023</span>&nbsp;·&nbsp;2 min</footer>
   <a class="entry-link" aria-label="post link to Optimize Python Code Using Pre-Allocation" href="https://andgarc.github.io/digital-garden/posts/pre-allocation-python/"></a>
 </article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Useful Tableau Calculations
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Dates Max Date
+MONTH([Date]) = MONTH({ FIXED : MAX([Date])})
+Max Date where values is not null or 0
+[Date] = { FIXED : MAX(IF [Actual Miles] &lt;&gt; 0 THEN [Date] END)}
+Get previous date using max date
+{ FIXED : MAX(IF [Max Date] = FALSE THEN [Date] END) }
+Get previous value using previous date
+IF [Date] = [Previous Date] THEN [MPG] ELSE 0 END
+Get current value using max date...</p>
+  </div>
+  <footer class="entry-footer"><span title='2023-08-14 00:00:00 +0000 UTC'>August 14, 2023</span>&nbsp;·&nbsp;1 min</footer>
+  <a class="entry-link" aria-label="post link to Useful Tableau Calculations" href="https://andgarc.github.io/digital-garden/posts/useful-tableau-calculations/"></a>
+</article>
 <footer class="page-footer">
   <nav class="pagination">
-    <a class="next" href="https://andgarc.github.io/digital-garden/page/2/">Next&nbsp;2/3&nbsp;»
+    <a class="next" href="https://andgarc.github.io/digital-garden/page/2/">Next&nbsp;2/2&nbsp;»
     </a>
   </nav>
 </footer>
