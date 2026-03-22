@@ -3,7 +3,7 @@ title = 'What now?'
 date = 2026-03-22
 draft = false
 tags = ['book']
-description = 'Take aways from "Show Your Work!" by Austin Kleon'
+description = 'Takeaways from "Show Your Work!" by Austin Kleon'
 ShowToc = false
 +++
 
