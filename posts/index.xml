@@ -6,7 +6,7 @@
     <description>Recent content in Posts on AG</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 09 Feb 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 22 Mar 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://andgarc.github.io/digital-garden/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>What is a Digital Garden?</title>
@@ -16,6 +16,13 @@
       <description>What is a Digital Garden? A digital garden is like a cross between a personal blog and a knowledge base.
 This is where I keep knowledge accumulated over my career in a series of notes.
 Mine is powered by Hugo &amp;amp; PaperMod and hosted on GitHub Pages.</description>
+    </item>
+    <item>
+      <title>What now?</title>
+      <link>https://andgarc.github.io/digital-garden/posts/show-your-work/</link>
+      <pubDate>Sun, 22 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://andgarc.github.io/digital-garden/posts/show-your-work/</guid>
+      <description>Take aways from &amp;#34;Show Your Work!&amp;#34; by Austin Kleon</description>
     </item>
     <item>
       <title>Documenting a Project</title>
