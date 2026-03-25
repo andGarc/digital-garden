@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>Pre-deployment Checklist | AG</title>
+<meta name="keywords" content="unix">
+<meta name="description" content="An app pre-deployment checklist">
+<meta name="author" content="">
+<link rel="canonical" href="https://andgarc.github.io/digital-garden/posts/deployment-checklist/">
+<link crossorigin="anonymous" href="/digital-garden/assets/css/stylesheet.b609c58d5c11bb90b1a54e04005d74ad1ddf22165eb79f5533967e57df9c3b50.css" integrity="sha256-tgnFjVwRu5CxpU4EAF10rR3fIhZet59VM5Z&#43;V9&#43;cO1A=" rel="preload stylesheet" as="style">
+<link rel="icon" href="https://andgarc.github.io/digital-garden/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://andgarc.github.io/digital-garden/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://andgarc.github.io/digital-garden/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://andgarc.github.io/digital-garden/apple-touch-icon.png">
+<link rel="mask-icon" href="https://andgarc.github.io/digital-garden/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+
+    </style>
+</noscript><meta property="og:title" content="Pre-deployment Checklist" />
+<meta property="og:description" content="An app pre-deployment checklist" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://andgarc.github.io/digital-garden/posts/deployment-checklist/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2026-03-24T12:52:34-05:00" />
+<meta property="article:modified_time" content="2026-03-24T12:52:34-05:00" />
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Pre-deployment Checklist"/>
+<meta name="twitter:description" content="An app pre-deployment checklist"/>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Posts",
+      "item": "https://andgarc.github.io/digital-garden/posts/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "Pre-deployment Checklist",
+      "item": "https://andgarc.github.io/digital-garden/posts/deployment-checklist/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Pre-deployment Checklist",
+  "name": "Pre-deployment Checklist",
+  "description": "An app pre-deployment checklist",
+  "keywords": [
+    "unix"
+  ],
+  "articleBody": "Pre-deployment Checklist Authorization Users should only be able to access their resources and nothing else.\nInput validation All inputs need to be validated and sanitized before making any kind of query or being executed in any capacity.\nCoors policy Only requests by our domain will be processed by our APIs.\nRate limiting Rate limit API endpoints.\nPassword reset links Set password reset links to expire after some time.\nCatch unexpected errors Catch unexpected errors on the frontend.\nMake sure the user never sees a raw stack trace.\nIndexing Index on most commonly queried fields.\nDon’t increase writing overhead if you don’t have to.\nLogging Keep it simple. Don’t add too much.\nAlerts Add alerts.\nRollback I like to implement a Blue-Green deployment strategy.\n",
+  "wordCount" : "123",
+  "inLanguage": "en",
+  "datePublished": "2026-03-24T12:52:34-05:00",
+  "dateModified": "2026-03-24T12:52:34-05:00",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://andgarc.github.io/digital-garden/posts/deployment-checklist/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "AG",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://andgarc.github.io/digital-garden/favicon.ico"
+    }
+  }
+}
+</script>
+</head>
+
+<body class="" id="top">
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="https://andgarc.github.io/digital-garden/" accesskey="h" title="AG (Alt + H)">AG</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="https://andgarc.github.io/digital-garden/archives/" title="Archive">
+                    <span>Archive</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://andgarc.github.io/digital-garden/search/" title="Search (Alt &#43; /)" accesskey=/>
+                    <span>Search</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://andgarc.github.io/digital-garden/tags/" title="Tags">
+                    <span>Tags</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    <div class="breadcrumbs"><a href="https://andgarc.github.io/digital-garden/">Home</a>&nbsp;»&nbsp;<a href="https://andgarc.github.io/digital-garden/posts/">Posts</a></div>
+    <h1 class="post-title entry-hint-parent">
+      Pre-deployment Checklist
+    </h1>
+    <div class="post-description">
+      An app pre-deployment checklist
+    </div>
+    <div class="post-meta"><span title='2026-03-24 12:52:34 -0500 -0500'>March 24, 2026</span>&nbsp;·&nbsp;1 min
+
+</div>
+  </header> <div class="toc">
+    <details >
+        <summary accesskey="c" title="(Alt + C)">
+            <span class="details">Table of Contents</span>
+        </summary>
+
+        <div class="inner"><ul>
+                <li>
+                    <a href="#pre-deployment-checklist" aria-label="Pre-deployment Checklist">Pre-deployment Checklist</a><ul>
+                        
+                <li>
+                    <a href="#authorization" aria-label="Authorization">Authorization</a></li>
+                <li>
+                    <a href="#input-validation" aria-label="Input validation">Input validation</a></li>
+                <li>
+                    <a href="#coors-policy" aria-label="Coors policy">Coors policy</a></li>
+                <li>
+                    <a href="#rate-limiting" aria-label="Rate limiting">Rate limiting</a></li>
+                <li>
+                    <a href="#password-reset-links" aria-label="Password reset links">Password reset links</a></li>
+                <li>
+                    <a href="#catch-unexpected-errors" aria-label="Catch unexpected errors">Catch unexpected errors</a></li>
+                <li>
+                    <a href="#indexing" aria-label="Indexing">Indexing</a></li>
+                <li>
+                    <a href="#logging" aria-label="Logging">Logging</a></li>
+                <li>
+                    <a href="#alerts" aria-label="Alerts">Alerts</a></li>
+                <li>
+                    <a href="#rollback" aria-label="Rollback">Rollback</a>
+                </li>
+            </ul>
+            </li>
+            </ul>
+        </div>
+    </details>
+</div>
+
+  <div class="post-content"><h1 id="pre-deployment-checklist">Pre-deployment Checklist<a hidden class="anchor" aria-hidden="true" href="#pre-deployment-checklist">#</a></h1>
+<h2 id="authorization">Authorization<a hidden class="anchor" aria-hidden="true" href="#authorization">#</a></h2>
+<p>Users should only be able to access their resources and nothing else.</p>
+<h2 id="input-validation">Input validation<a hidden class="anchor" aria-hidden="true" href="#input-validation">#</a></h2>
+<p>All inputs need to be validated and sanitized before making any kind of query or being executed in any capacity.</p>
+<h2 id="coors-policy">Coors policy<a hidden class="anchor" aria-hidden="true" href="#coors-policy">#</a></h2>
+<p>Only requests by our domain will be processed by our APIs.</p>
+<h2 id="rate-limiting">Rate limiting<a hidden class="anchor" aria-hidden="true" href="#rate-limiting">#</a></h2>
+<p>Rate limit API endpoints.</p>
+<h2 id="password-reset-links">Password reset links<a hidden class="anchor" aria-hidden="true" href="#password-reset-links">#</a></h2>
+<p>Set password reset links to expire after some time.</p>
+<h2 id="catch-unexpected-errors">Catch unexpected errors<a hidden class="anchor" aria-hidden="true" href="#catch-unexpected-errors">#</a></h2>
+<p>Catch unexpected errors on the frontend.<br>
+Make sure the user never sees a raw stack trace.</p>
+<h2 id="indexing">Indexing<a hidden class="anchor" aria-hidden="true" href="#indexing">#</a></h2>
+<p>Index on most commonly  queried fields.<br>
+Don’t increase writing overhead if you don’t have to.</p>
+<h2 id="logging">Logging<a hidden class="anchor" aria-hidden="true" href="#logging">#</a></h2>
+<p>Keep it simple. Don&rsquo;t add too much.</p>
+<h2 id="alerts">Alerts<a hidden class="anchor" aria-hidden="true" href="#alerts">#</a></h2>
+<p>Add alerts.</p>
+<h2 id="rollback">Rollback<a hidden class="anchor" aria-hidden="true" href="#rollback">#</a></h2>
+<p>I like to implement a Blue-Green deployment strategy.</p>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="https://andgarc.github.io/digital-garden/tags/unix/">unix</a></li>
+    </ul>
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+    <span>&copy; 2026 <a href="https://andgarc.github.io/digital-garden/">AG</a></span>
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+<script>
+    document.querySelectorAll('pre > code').forEach((codeblock) => {
+        const container = codeblock.parentNode.parentNode;
+
+        const copybutton = document.createElement('button');
+        copybutton.classList.add('copy-code');
+        copybutton.innerHTML = 'copy';
+
+        function copyingDone() {
+            copybutton.innerHTML = 'copied!';
+            setTimeout(() => {
+                copybutton.innerHTML = 'copy';
+            }, 2000);
+        }
+
+        copybutton.addEventListener('click', (cb) => {
+            if ('clipboard' in navigator) {
+                navigator.clipboard.writeText(codeblock.textContent);
+                copyingDone();
+                return;
+            }
+
+            const range = document.createRange();
+            range.selectNodeContents(codeblock);
+            const selection = window.getSelection();
+            selection.removeAllRanges();
+            selection.addRange(range);
+            try {
+                document.execCommand('copy');
+                copyingDone();
+            } catch (e) { };
+            selection.removeRange(range);
+        });
+
+        if (container.classList.contains("highlight")) {
+            container.appendChild(copybutton);
+        } else if (container.parentNode.firstChild == container) {
+            
+        } else if (codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName == "TABLE") {
+            
+            codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(copybutton);
+        } else {
+            
+            codeblock.parentNode.appendChild(copybutton);
+        }
+    });
+</script>
+</body>
+
+</html>
