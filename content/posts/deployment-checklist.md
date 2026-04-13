@@ -50,4 +50,4 @@ Add alerts.
 
 ## Rollback 
 
-I like to implement a Blue-Green deployment strategy.
+Implement a Blue-Green deployment strategy.
