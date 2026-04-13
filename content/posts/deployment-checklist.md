@@ -18,7 +18,7 @@ Users should only be able to access their resources and nothing else.
 
 All inputs need to be validated and sanitized before making any kind of query or being executed in any capacity.
 
-## Coors policy
+## CORS policy
 
 Only requests by our domain will be processed by our APIs. 
 
