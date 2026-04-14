@@ -6,15 +6,8 @@
     <description>Recent content in Tags on AG</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 24 Mar 2026 12:52:34 -0500</lastBuildDate>
+    <lastBuildDate>Sun, 22 Mar 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://andgarc.github.io/digital-garden/tags/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>unix</title>
-      <link>https://andgarc.github.io/digital-garden/tags/unix/</link>
-      <pubDate>Tue, 24 Mar 2026 12:52:34 -0500</pubDate>
-      <guid>https://andgarc.github.io/digital-garden/tags/unix/</guid>
-      <description></description>
-    </item>
     <item>
       <title>book</title>
       <link>https://andgarc.github.io/digital-garden/tags/book/</link>
@@ -97,6 +90,13 @@
       <link>https://andgarc.github.io/digital-garden/tags/django/</link>
       <pubDate>Wed, 07 Dec 2022 00:00:00 +0000</pubDate>
       <guid>https://andgarc.github.io/digital-garden/tags/django/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>unix</title>
+      <link>https://andgarc.github.io/digital-garden/tags/unix/</link>
+      <pubDate>Tue, 23 Feb 2021 19:11:34 -0500</pubDate>
+      <guid>https://andgarc.github.io/digital-garden/tags/unix/</guid>
       <description></description>
     </item>
     <item>

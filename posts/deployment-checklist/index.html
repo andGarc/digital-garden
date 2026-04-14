@@ -6,7 +6,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="index, follow">
 <title>Pre-deployment Checklist | AG</title>
-<meta name="keywords" content="unix">
+<meta name="keywords" content="">
 <meta name="description" content="An app pre-deployment checklist">
 <meta name="author" content="">
 <link rel="canonical" href="https://andgarc.github.io/digital-garden/posts/deployment-checklist/">
@@ -94,7 +94,7 @@
   "name": "Pre-deployment Checklist",
   "description": "An app pre-deployment checklist",
   "keywords": [
-    "unix"
+    ""
   ],
   "articleBody": "Pre-deployment Checklist Authorization Users should only be able to access their resources and nothing else.\nInput validation All inputs need to be validated and sanitized before making any kind of query or being executed in any capacity.\nCORS policy Only requests by our domain will be processed by our APIs.\nRate limiting Rate limit API endpoints.\nPassword reset links Set password reset links to expire after some time.\nCatch unexpected errors Catch unexpected errors on the frontend.\nMake sure the user never sees a raw stack trace.\nIndexing Index on most commonly queried fields.\nDon’t increase writing overhead if you don’t have to.\nLogging Keep it simple. Don’t add too much.\nAlerts Add alerts.\nRollback Implement a Blue-Green deployment strategy.\n",
   "wordCount" : "120",
@@ -256,7 +256,6 @@ Don’t increase writing overhead if you don’t have to.</p>
 
   <footer class="post-footer">
     <ul class="post-tags">
-      <li><a href="https://andgarc.github.io/digital-garden/tags/unix/">unix</a></li>
     </ul>
   </footer>
 </article>
